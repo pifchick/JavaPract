@@ -1,0 +1,66 @@
+1015 [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Starting Pr21Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 732 (C:\Zhenya\github\java-3-semester\pr21\target\classes started by user in C:\Zhenya\github\java-3-semester\pr21)
+1026 [restartedMain] INFO  com.example.pr21.Pr21Application
+                – No active profile set, falling back to default profiles: default
+1109 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1110 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2192 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2306 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+3434 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3447 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3448 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3448 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+3579 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3579 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2467 ms
+4117 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4245 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+4502 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4618 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+4879 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4904 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+5706 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5737 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6809 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+6983 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+7522 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+7558 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+7596 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+7622 [restartedMain] INFO  com.example.pr21.Pr21Application
+                – Started Pr21Application in 7.082 seconds (JVM running for 8.439)
+75531 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+75532 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+75538 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 5 ms
+76074 [http-nio-8080-exec-1] INFO  c.e.pr21.services.StudentService
+                – Save student with id: 0
+76151 [http-nio-8080-exec-1] INFO  com.example.pr21.aspects.TimeAspect
+                – void com.example.pr21.services.StudentService.save(StudentDTO) worked for 456ms
+76245 [http-nio-8080-exec-2] INFO  c.e.pr21.services.StudentService
+                – Find all srudents
+76264 [http-nio-8080-exec-2] INFO  com.example.pr21.aspects.TimeAspect
+                – List com.example.pr21.services.StudentService.getAll() worked for 19ms
