@@ -1,5 +1,5 @@
 1121 [restartedMain] INFO  com.example.pr20.Pr20Application
-                – Starting Pr20Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 19256 (C:\Zhenya\github\java-3-semester\pr20\target\classes started by user in C:\Zhenya\github\java-3-semester\pr20)
+                – Starting Pr20Application using Java 14.0.2 on LAPTOP-MH8E1QFP with PID 19256 (C:\github\java-3-semester\pr20\target\classes started by user in C:\github\java-3-semester\pr20)
 1131 [restartedMain] INFO  com.example.pr20.Pr20Application
                 – No active profile set, falling back to default profiles: default
 1212 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
