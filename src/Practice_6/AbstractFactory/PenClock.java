@@ -1,8 +1,8 @@
 package Practice_6.AbstractFactory;
 
-public class NicaClock implements ClockFactory{
+public class PenClock implements ClockFactory{
     public NicaClock(){
-        System.out.println("Фабрика часов Ника");
+        System.out.println("Фабрика часов Пена");
     }
 
     @Override
